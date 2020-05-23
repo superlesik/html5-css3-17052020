@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.color-white {
+    color: #fff !important
+}
+
+.container {
+    font-family: 'Arial MT', sans-serif;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.main-header {
+    background-color: #445162;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.product-info {
+    margin: 0;
+    position: relative;
+}
+
+.product-info h1 {
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.product-info ul {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    list-style-type: none;
+}
+
+.product-info ul li {
+    position: relative;
+}
+
+.about-product {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.about-product-info {
+    margin: 0;
+    width: 500px;
+}
+
+.about-product-info h1 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 30px;
+}
+
+.about-product-info p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dignity-product {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.dignity-product h1 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.dignity-product-left p,
+.dignity-product-right p {
+    width: 526px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+.fa-plus {
+    color: white;
+    background-color: #4f5b6a;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2px;
+    margin-right: 9px;
+    margin-bottom: 50px; //не уверена, что это верное решение, но не нашла как еще сделать так, чтобы текст не обтекал иконку
+}
+
+.screenshots {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.screenshots h1 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.screenshots-wrapper figure {
+    width: 500px;
+}
+
+.screenshots-desc {
+    width: 359px;
+}
+
+.screenshots-desc h2 {
+    color: #445161;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 5px;
+}
+
+.screenshots-desc p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.figure-img {
+    display: block;
+    width: 200px;
+    height: 180px;
+}
+
+.dignity-product-desc {
+    width: 500px;
+    padding-right: 10px;
+}
