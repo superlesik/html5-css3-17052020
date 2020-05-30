@@ -1,0 +1,339 @@
+body {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Arial MT', sans-serif;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.main-header,
+footer {
+    background-color: #445162;
+    box-sizing: border-box;
+}
+
+.product-info {
+    margin: 0;
+    position: relative;
+}
+
+.product-info h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.product-info ul {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    list-style-type: none;
+}
+
+.product-info ul li {
+    position: relative;
+}
+
+.about-product {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.about-product-info {
+    margin: 0;
+    width: 500px;
+}
+
+.about-product-info h1 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.about-product-info p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dignity-product,
+.reviews {
+    background-color: #f5f5f5;
+}
+
+.dignity-product h1,
+.reviews h1,
+.screenshots h1,
+.buy h1 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.dignity-product-desc {
+    width: 500px;
+    padding-right: 10px;
+}
+
+.fa-plus {
+    color: white;
+    background-color: #4f5b6a;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2px;
+    margin-right: 9px;
+    margin-bottom: 50px; //не уверена, что это верное решение, но не нашла как еще сделать так, чтобы текст не обтекал иконку
+}
+
+.screenshots {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.screenshots-wrapper figure {
+    width: 500px;
+}
+
+.screenshots-desc {
+    width: 359px;
+}
+
+.screenshots-desc h2 {
+    color: #445161;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 5px;
+}
+
+.screenshots-desc p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.figure-img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.figure-img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.reviews-photo {
+    background-image: linear-gradient(to bottom left, rgb(107, 117, 224), rgb(115, 123, 221), rgb(123, 130, 218), rgb(131, 136, 215), rgb(139, 142, 212), rgb(147, 148, 209), rgb(154, 155, 206), rgb(162, 161, 203), rgb(170, 167, 200), rgb(178, 173, 197), rgb(186, 180, 194), rgb(194, 186, 191));
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.reviews-blockquote {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 18px;
+    width: 400px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.reviews-blockquote-footer {
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #ebebeb;
+}
+
+.reviews-item {
+    width: 50%;
+}
+
+.reviews-blockquote:before {
+    content: "";
+    border: 18px solid transparent;
+    border-right: 15px solid #ebebeb;
+    position: relative;
+    top: 25px;
+    left: -49px;
+    display: inline-block;
+    width: 30px;
+}
+
+.standart {
+    width: 300px;
+    height: 306px;
+    background-color: #445162;
+    border-radius: 3%;
+}
+
+.price-name {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.price-info li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.premium {
+    width: 300px;
+    height: 404px;
+    background-color: #445162;
+    border-radius: 3%;
+}
+
+.lux {
+    width: 300px;
+    height: 499px;
+    background-color: #445162;
+    border-radius: 3%;
+}
+
+.price {
+    width: 300px;
+    height: 71px;
+    background-color: white;
+    border-left: 2px solid #445162;
+    border-right: 2px solid #445162;
+}
+
+.price p {
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-buy {
+    width: 260px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    color: #445161;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.btn-buy:hover,
+input[type=submit]:hover {
+    color: #fff;
+    background-color: #445161;
+}
+
+footer h1 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.contact-form {
+    width: 500px;
+    margin-left: 100px;
+}
+
+.name,
+.email {
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 21px;
+}
+
+.message {
+    width: 500px;
+    height: 170px;
+    border-radius: 5px;
+    margin-bottom: 21px;
+    resize: none;
+}
+
+fieldset {
+    border-color: transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.contact-info,
+.icons {
+    padding-left: 75px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #445162;
+    margin-right: 15px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.icon:hover {
+    background-color: #445162;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.bottom-footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 10px;
+}
+
+.icq {
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+}
